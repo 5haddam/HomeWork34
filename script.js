@@ -1,7 +1,7 @@
 const roles = {
-	admin: "https://www.flaticon.com/svg/static/icons/svg/1424/1424453.svg",
-	student: "https://www.flaticon.com/svg/static/icons/svg/1424/1424424.svg",
-	lector: "https://www.flaticon.com/svg/static/icons/svg/1424/1424450.svg"
+	admin: "images/admin.svg",
+	student: "images/student.svg",
+	lector: "images/lector.svg"
 };
 
 const gradation = {
@@ -15,7 +15,7 @@ const users = [
 	{
 		name: "Jack Smith",
 		age: 23,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922522.svg",
+		img: "images/man.svg",
 		role: "student",
 		courses: [
 			{
@@ -31,13 +31,13 @@ const users = [
 	{
 		name: "Amal Smith",
 		age: 20,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922656.svg",
+		img: "images/girl.svg",
 		role: "student"
 	},
 	{
 		name: "Noah Smith",
 		age: 43,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922616.svg",
+		img: "images/man.svg",
 		role: "student",
 		courses: [
 			{
@@ -49,7 +49,7 @@ const users = [
 	{
 		name: "Charlie Smith",
 		age: 18,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922688.svg",
+		img: "images/girl.svg",
 		role: "student",
 		courses: [
 			{
@@ -64,7 +64,7 @@ const users = [
 	{
 		name: "Emily Smith",
 		age: 30,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922565.svg",
+		img: "images/girl.svg",
 		role: "admin",
 		courses: [
 			{
@@ -86,7 +86,7 @@ const users = [
 	{
 		name: "Leo Smith",
 		age: 253,
-		img: "https://www.flaticon.com/svg/static/icons/svg/2922/2922719.svg",
+		img: "images/man.svg",
 		role: "lector",
 		courses: [
 			{
